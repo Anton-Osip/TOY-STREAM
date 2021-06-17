@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    box-sizing: border-box;
+    font-size: calc(.06rem + 1vw);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: $font-family;
+    color: #000;
+}
+
+@media (min-width:1200px) {
+     :root {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1200px) {
+     :root {
+        font-size: calc(.5rem + 1vw);
+    }
+}
+
+@media (max-width:516px) {
+     :root {
+        font-size: 16px;
+    }
+}

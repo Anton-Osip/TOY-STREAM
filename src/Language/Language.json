@@ -1,0 +1,16 @@
+{
+	"ru": {
+		"header": [
+			"Главная страница",
+			"Компания",
+			"Игры",
+			"Карьера",
+			"Новости",
+			"Контакты"
+		]
+	},
+	"en": {
+		"header": ["Home", "Сompany", "Games", "Career", "News", "Contacts"]
+	},
+	"NavLink": ["home", "company", "games", "career", "news", "contacts"]
+}
