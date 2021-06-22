@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Akrobat-SemiBold';
+	src: url('./../../assets/fonts/Akrobat-SemiBold.otf');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: 'Akrobat-SemiBold';
+	src: url('./../../assets/fonts/Akrobat-Bold.otf');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}

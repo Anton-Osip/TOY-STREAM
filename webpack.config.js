@@ -47,17 +47,17 @@ module.exports = {
 	],
 	module: {
 		rules: [
-			//CSS
-			// {
-			// 	test: /\.css$/,
-			// 	use: [
-			// 		{
-			// 			loader: MiniCssExtractPlugin.loader,
-			// 		},
-			// 		'css-loader',
-			// 	],
-			// },
-			//scss
+			// CSS
+			{
+				test: /\.css$/,
+				use: [
+					{
+						loader: MiniCssExtractPlugin.loader,
+					},
+					'css-loader',
+				],
+			},
+			// scss
 			{
 				test: /\.s[ac]ss$/,
 				use: [
@@ -75,7 +75,7 @@ module.exports = {
 			},
 			// шрифты и SVG
 			{
-				test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+				test: /\.(woff(2)?|eot|ttf|otf|svg)$/,
 				type: 'asset/inline',
 			},
 			// JavaScript

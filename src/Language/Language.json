@@ -9,7 +9,7 @@
 			"Контакты"
 		]
 	},
-	"en": {
+	"eng": {
 		"header": ["Home", "Сompany", "Games", "Career", "News", "Contacts"]
 	},
 	"NavLink": ["home", "company", "games", "career", "news", "contacts"]

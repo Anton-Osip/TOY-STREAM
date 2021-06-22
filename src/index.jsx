@@ -1,10 +1,10 @@
-import './sass/main.scss'
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './App.jsx'
 
-const App = () => (
-	<div className='container'>
-		<h1>Toy stream</h1>
-	</div>
+ReactDOM.render(
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById('app')
 )
-ReactDOM.render(<App />, document.getElementById('app'))

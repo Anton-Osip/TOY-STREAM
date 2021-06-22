@@ -1,41 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 :root {
-    box-sizing: border-box;
-    font-size: calc(.06rem + 1vw);
+	box-sizing: border-box;
+	font-size: 16px;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 img {
-    display: block;
+	display: block;
 }
 
 body {
-    font-family: $font-family;
-    color: #000;
+	font-family: $font-family;
+	color: #000;
 }
 
-@media (min-width:1200px) {
-     :root {
-        font-size: 16px;
-    }
+@media (max-width: 1554px) {
+	:root {
+		font-size: calc(0.06rem + 1vw);
+	}
 }
 
-@media (max-width:1200px) {
-     :root {
-        font-size: calc(.5rem + 1vw);
-    }
+@media (max-width: 1200px) {
+	:root {
+		font-size: calc(0.08rem + 1vw);
+	}
 }
 
-@media (max-width:516px) {
-     :root {
-        font-size: 16px;
-    }
+@media (max-width: 860px) {
+	:root {
+		font-size: 16px;
+	}
 }
