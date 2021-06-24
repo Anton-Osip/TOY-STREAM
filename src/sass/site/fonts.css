@@ -6,8 +6,15 @@
 	font-stretch: normal;
 }
 @font-face {
-	font-family: 'Akrobat-SemiBold';
+	font-family: 'Akrobat-Bold';
 	src: url('./../../assets/fonts/Akrobat-Bold.otf');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: 'ZonaPro-Bold';
+	src: url('./../../assets/fonts/ZonaPro-Bold.otf');
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: normal;

@@ -1,0 +1,165 @@
+.main-page {
+	& .container {
+		position: relative;
+		height: 100%;
+	}
+	&__bg {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-color: $bg-color;
+		width: 88%;
+		height: calc(100% - 100px);
+
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+	&__img {
+		max-width: 786px;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: 100vh;
+		position: relative;
+	}
+	&__title {
+		font-family: 'ZonaPro-Bold';
+		font-weight: 800;
+		font-size: 72px;
+		line-height: 85px;
+		text-transform: uppercase;
+		color: $text-color;
+		max-width: 1077px;
+	}
+	&__info {
+		display: flex;
+		align-items: center;
+	}
+	&__btn {
+		margin-right: 50px;
+		button {
+			font-family: 'Akrobat-Bold';
+			font-style: normal;
+			font-weight: 800;
+			font-size: 22px;
+			line-height: 27px;
+			color: #ffffff;
+		}
+	}
+	&__description {
+		max-width: 459px;
+
+		font-family: 'Akrobat-SemiBold';
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 30px;
+		color: $text-color;
+	}
+}
+
+@media (max-width: 1770px) {
+	.main-page {
+		&__img {
+			max-width: 560px;
+		}
+
+		&__title {
+			font-size: 64px;
+			line-height: 70px;
+			max-width: 950px;
+		}
+
+		&__btn {
+			margin-right: 35px;
+		}
+	}
+}
+
+@media (max-width: 1370px) {
+	.main-page {
+		&__title {
+			font-size: 52px;
+			line-height: 60px;
+			max-width: 850px;
+		}
+
+		&__btn {
+			margin-right: 25px;
+		}
+		&__description {
+			max-width: 359px;
+			font-size: 20px;
+			line-height: 24px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.main-page {
+		&__bg {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-height: 1303px;
+			height: 100%;
+			display: flex;
+			align-items: flex-end;
+			justify-content: center;
+		}
+		&__text {
+			display: block;
+			padding-top: 145px;
+		}
+		&__img {
+			max-width: 786px;
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+		&__title {
+			font-size: 72px;
+			line-height: 85px;
+			max-width: 1077px;
+		}
+		&__btn {
+			margin-right: 50px;
+		}
+		&__description {
+			max-width: 459px;
+			font-size: 24px;
+			line-height: 30px;
+		}
+	}
+}
+@media (max-width: 568px) {
+	.main-page {
+		&__title {
+			font-size: 40px;
+			line-height: 42px;
+			margin-bottom: 25px;
+		}
+		&__info {
+			flex-direction: column;
+			align-items: start;
+		}
+		&__btn {
+			margin-right: 0px;
+			margin-bottom: 15px;
+		}
+		&__description {
+			font-size: 20px;
+			line-height: 24px;
+		}
+		&__bg {
+			min-height: 891px;
+		}
+	}
+}

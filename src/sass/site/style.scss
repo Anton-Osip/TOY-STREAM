@@ -22,20 +22,22 @@ body {
 	color: #000;
 }
 
-@media (max-width: 1554px) {
+.btn {
+	width: 120px;
+	height: 120px;
+	border: 0px;
+	background-color: $btn-color;
+	color: #ffffff;
+	transition: background-color 0.3s;
+	&:hover {
+		background-color: $hover-color;
+	}
+	&:active {
+		background-color: $active-color;
+	}
+}
+@media (max-width: 1950px) {
 	:root {
 		font-size: calc(0.06rem + 1vw);
-	}
-}
-
-@media (max-width: 1200px) {
-	:root {
-		font-size: calc(0.08rem + 1vw);
-	}
-}
-
-@media (max-width: 860px) {
-	:root {
-		font-size: 16px;
 	}
 }

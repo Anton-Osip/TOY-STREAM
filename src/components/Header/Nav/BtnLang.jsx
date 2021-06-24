@@ -4,7 +4,7 @@ export default function BtnLang({ setChengLanguage, chengLanguage }) {
 	return (
 		<div>
 			<button
-				className='header__btn'
+				className='header__btn btn'
 				onClick={() => {
 					setChengLanguage(chengLanguage === 'ru' ? 'eng' : 'ru')
 				}}

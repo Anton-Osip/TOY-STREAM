@@ -7,9 +7,10 @@ export default function Nav({
 	chengLanguage,
 	setChengLanguage,
 	burgerMenu,
+	setBurgerMenu,
 }) {
 	return (
-		<div>
+		<div className='header__right'>
 			<div
 				className={
 					burgerMenu
@@ -17,12 +18,17 @@ export default function Nav({
 						: 'header__nav'
 				}
 			>
-				<Links language={language} chengLanguage={chengLanguage} />
-				<BtnLang
+				<Links
+					language={language}
 					chengLanguage={chengLanguage}
-					setChengLanguage={setChengLanguage}
+					burgerMenu={burgerMenu}
+					setBurgerMenu={setBurgerMenu}
 				/>
 			</div>
+			<BtnLang
+				chengLanguage={chengLanguage}
+				setChengLanguage={setChengLanguage}
+			/>
 		</div>
 	)
 }

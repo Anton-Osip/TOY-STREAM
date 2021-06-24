@@ -7,10 +7,29 @@
 			"Карьера",
 			"Новости",
 			"Контакты"
-		]
+		],
+		"main_page": {
+			"title": "Мы создаем мобильные игры, в которые играют миллионы",
+			"button": "Узнать подробнее",
+			"description": "«Оригинальные идеи, качество реализации игровых механик и внимание к деталям интерфейса - наши основные принципы.»"
+		},
+		"compony": {
+			"studia": {
+				"title": "О Студии",
+				"description": [
+					"Toy.Stream сегодня — это команда из более 500 человек и офисы по всему миру. Мы входим в оп-10 игровых разработчиков по установкам — общее количество загрузок перевалило за 2 млрд, а ежемесячная аудитория составляет более 250 млн игроков.",
+					"В разработке у нас всегда находится более десяти проектов одновременно. Мы постоянно экспериментируем, ищем новые тренды и пробуем себя в новых жанрах."
+				]
+			}
+		}
 	},
 	"eng": {
-		"header": ["Home", "Сompany", "Games", "Career", "News", "Contacts"]
+		"header": ["Home", "Company", "Games", "Career", "News", "Contacts"],
+		"main_page": {
+			"title": "We create mobile games that are played by millions",
+			"button": "Learn more",
+			"description": "«Original ideas, quality of game mechanics implementation and attention to interface details are our main principles.»"
+		}
 	},
 	"NavLink": ["home", "company", "games", "career", "news", "contacts"]
 }

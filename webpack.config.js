@@ -35,7 +35,7 @@ module.exports = {
 		// 		{
 		// 			from: path.resolve(
 		// 				__dirname,
-		// 				'./src/assets/img/contacts-bg.png'
+		// 				'./src/assets/img/main/Arrow-right.png'
 		// 			),
 		// 			to: path.resolve(__dirname, './dist'),
 		// 		},

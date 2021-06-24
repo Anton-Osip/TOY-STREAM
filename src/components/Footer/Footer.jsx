@@ -10,6 +10,8 @@ export default function Footer(props) {
 					<Links
 						language={props.language}
 						chengLanguage={props.chengLanguage}
+						setBurgerMenu={props.setBurgerMenu}
+						burgerMenu={props.burgerMenu}
 					/>
 				</div>
 				<Social />
