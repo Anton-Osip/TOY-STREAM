@@ -1,9 +1,60 @@
-.compony{
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    &__slider{
-        width: 100vw;
-        height: 100vh;
-    }
+.compony {
+	width: 100vw;
+	min-height: 100vh;
+	overflow: hidden;
+	&__slider {
+		width: 100vw;
+		height: 100vh;
+	}
+}
+.switchs {
+	position: fixed;
+	z-index: 999;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+.switch {
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	cursor: pointer;
+
+	&__text {
+		font-family: 'Akrobat-SemiBold';
+		font-size: 20px;
+		line-height: 24px;
+		text-transform: uppercase;
+		color: #646464;
+		margin-right: 10px;
+	}
+	&__tab {
+		width: 16.6px;
+		height: 16.6px;
+		background: #000000;
+	}
+	&--active {
+		& > .switch__text {
+			display: none;
+		}
+		& > .switch__tab {
+			background: $btn-color;
+		}
+	}
+}
+.undisplay {
+	display: none;
+}
+
+@media (max-width: 1027px) {
+	.compony {
+		overflow: visible;
+	}
+	.undisplay {
+		display: block;
+	}
+	.switchs {
+		display: none;
+	}
 }

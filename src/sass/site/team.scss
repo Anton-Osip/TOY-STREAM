@@ -1,0 +1,173 @@
+.team {
+	height: 100%;
+
+	& > .container {
+		padding-top: 125px;
+		padding-bottom: 70px;
+	}
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 60%;
+		min-height: calc(100vh - 60px);
+		background-color: $bg-color;
+		z-index: -1;
+	}
+	&__top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		max-width: 1648px;
+		width: 100%;
+		margin: 0 auto 28px;
+	}
+
+	&__title {
+		font-family: 'ZonaPro-Bold';
+		font-weight: 800;
+		font-size: 3rem;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		color: $text-color;
+		max-width: 603px;
+	}
+	&__slider-btn--next,
+	&__slider-btn--prev {
+		padding: 25px 25px;
+		background: #f1f1f1;
+		margin: 0 43px;
+		color: #c3b6b6;
+		border: 0px;
+		outline: none;
+		font-size: 34px;
+		&--active {
+			background-color: $btn-color;
+			color: #fff;
+
+			&:hover {
+				background-color: $hover-color;
+				color: #fff;
+			}
+			&:active {
+				background-color: $active-color;
+				color: #fff;
+			}
+		}
+	}
+	&__bottom {
+		max-width: 1648px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	&__slider {
+		display: flex;
+		align-items: flex-start;
+		transition: transform 0.5s;
+	}
+}
+.card {
+	margin-right: 70px;
+	height: 451px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	&__photo {
+		width: 180px;
+		height: 180px;
+		margin-bottom: 10px;
+		& img {
+			width: 100%;
+		}
+	}
+	&__name {
+		font-family: 'Akrobat-Bold';
+		font-weight: 800;
+		font-size: 2rem;
+		line-height: 1.2em;
+		color: $text-color;
+		margin-bottom: 2px;
+	}
+	&__profession,
+	&__quote,
+	&__words {
+		font-family: 'Akrobat-SemiBold';
+		font-weight: 600;
+		font-size: 1.2rem;
+		line-height: 1.2em;
+		color: $text-color;
+	}
+	&__profession {
+		margin-bottom: 20px;
+	}
+	&__words {
+		width: 342px;
+	}
+}
+.card:last-child {
+	margin-right: 0px;
+}
+@media (max-width: 1027px) {
+	.team {
+		padding: 280px 0;
+		height: auto;
+		& > .container {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+		&__bg {
+			display: none;
+		}
+		&__title {
+			max-width: 300px;
+		}
+
+		&__slider-btn--next,
+		&__slider-btn--prev {
+			margin: 0 25px;
+		}
+	}
+}
+@media (max-width: 600px) {
+	.team {
+		position: relative;
+		background-color: $mobile-bg;
+		margin: 0;
+		padding: 134px 0 0;
+		& > .container {
+			padding-top: 0px;
+			padding-bottom: 70px;
+		}
+		&__title {
+			font-size: 32px;
+			line-height: 38px;
+		}
+		&__slider-btns {
+			position: absolute;
+			bottom: 70px;
+			left: 20px;
+			right: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		&__slider-btn--next,
+		&__slider-btn--prev {
+			padding: 10px 10px;
+			margin: 0 0;
+		}
+		&__slider {
+			display: flex;
+			align-items: flex-start;
+			transition: transform 0.5s;
+		}
+		&__bottom {
+			margin-bottom: 100px;
+		}
+	}
+	.card {
+		height: auto;
+	}
+}

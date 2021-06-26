@@ -15,20 +15,160 @@
 		},
 		"compony": {
 			"studia": {
-				"title": "О Студии",
+				"switch": "О компании",
+				"title": "О компании",
 				"description": [
-					"Toy.Stream сегодня — это команда из более 500 человек и офисы по всему миру. Мы входим в оп-10 игровых разработчиков по установкам — общее количество загрузок перевалило за 2 млрд, а ежемесячная аудитория составляет более 250 млн игроков.",
-					"В разработке у нас всегда находится более десяти проектов одновременно. Мы постоянно экспериментируем, ищем новые тренды и пробуем себя в новых жанрах."
+					"Toy.Stream - это компания-разработчик и издатель мобильных игр.",
+					"Мы работаем небольшими командами - это позволяет оставаться гибкими и быстро подстраиваться под потребности наших игроков. На каждом этапе - начиная с детального разбора идеи, заканчивая реализацией игровых механик и геймплея - мы ориентируемся на наших пользователей. Просто потому, что сами играем* Также мы помогаем другим студиям разработки реализовывать свои идеи: поможем протестировать идеи и прототипы, а хит - издадим на полностью прозрачных и вкусных условиях*",
+					"Также мы помогаем другим студиям разработки реализовывать свои идеи: поможем протестировать идеи и прототипы, а хит - издадим на полностью прозрачных и вкусных условиях* "
+				],
+				"cards": [
+					{ "totall": "2млрд", "description": "Установок" },
+					{ "totall": "500млн+", "description": "Игроков" },
+					{
+						"totall": "250млн+",
+						"description": "Активных юзеров в месяц"
+					},
+					{ "totall": "500+", "description": "Сотрудников" }
+				]
+			},
+			"team": {
+				"switch": "команда",
+				"title": "Наша команда",
+				"cards": [
+					{
+						"name": "Алекс Шерман",
+						"profession": "CEO",
+						"quote": "Цитата:",
+						"words": "«Безос говорил, если не можешь накормить команду двумя пиццами - у тебя слишком большая команда. Нам удается! И в этом наше преимущество. (-:»"
+					},
+					{
+						"name": "Александр Исаев ",
+						"profession": "(CBDO)",
+						"quote": "Цитата:",
+						"words": "«Мы ежедневно отслеживаем и нализируем топы Apple Store и Goole Play Market - в нашем деле важно быть в курсе каждой детали ситуации на рынке»"
+					},
+					{
+						"name": "Александр Негреев",
+						"profession": "Game designe",
+						"quote": "Цитата:",
+						"words": "«Мозговые штурмы порой затягиваются до поздней ночи, но как еще найти среди сотни идей - ту самую, блестящую?»"
+					},
+					{
+						"name": "Эрик Имашев",
+						"profession": "Unity developer",
+						"quote": "Цитата:",
+						"words": "«В каждом проекте важно не только то, что видно игроку - но и что находится под капотом. Мгновенный отклик и вовремя сохраненная игра - очень ценятся игроками»"
+					},
+					{
+						"name": "Алекс Шерман",
+						"profession": "CEO",
+						"quote": "Цитата:",
+						"words": "«Безос говорил, если не можешь накормить команду двумя пиццами - у тебя слишком большая команда. Нам удается! И в этом наше преимущество. (-:»"
+					},
+					{
+						"name": "Александр Исаев ",
+						"profession": "(CBDO)",
+						"quote": "Цитата:",
+						"words": "«Мы ежедневно отслеживаем и нализируем топы Apple Store и Goole Play Market - в нашем деле важно быть в курсе каждой детали ситуации на рынке»"
+					},
+					{
+						"name": "Александр Негреев",
+						"profession": "Game designe",
+						"quote": "Цитата:",
+						"words": "«Мозговые штурмы порой затягиваются до поздней ночи, но как еще найти среди сотни идей - ту самую, блестящую?»"
+					},
+					{
+						"name": "Эрик Имашев",
+						"profession": "Unity developer",
+						"quote": "Цитата:",
+						"words": "«В каждом проекте важно не только то, что видно игроку - но и что находится под капотом. Мгновенный отклик и вовремя сохраненная игра - очень ценятся игроками»"
+					}
 				]
 			}
 		}
 	},
+
 	"eng": {
 		"header": ["Home", "Company", "Games", "Career", "News", "Contacts"],
 		"main_page": {
 			"title": "We create mobile games that are played by millions",
 			"button": "Learn more",
 			"description": "«Original ideas, quality of game mechanics implementation and attention to interface details are our main principles.»"
+		},
+		"compony": {
+			"studia": {
+				"switch": "About company",
+				"title": "About company",
+				"description": [
+					"Toy.Stream is a mobile game developer and publisher.",
+					"We work in small teams - this allows us to remain flexible and quickly adapt to the needs of our players. At every stage - from a detailed analysis of the idea to the implementation of game mechanics and gameplay - we focus on our users. Just because we play ourselves * We also help other development studios to realize their ideas: we will help to test ideas and prototypes, and we will publish a hit on completely transparent and tasty conditions *",
+					"We also help other development studios to implement their ideas: we will help to test ideas and prototypes, and we will publish a hit on completely transparent and tasty conditions * "
+				],
+				"cards": [
+					{ "totall": "2billion", "description": "Installations" },
+					{ "totall": "500million+", "description": "Players" },
+					{
+						"totall": "250million+",
+						"description": "Active users per month"
+					},
+					{ "totall": "500+", "description": "Employees " }
+				]
+			},
+			"team": {
+				"switch": "command",
+				"title": "our team",
+				"cards": [
+					{
+						"name": "Alex Sherman",
+						"profession": "CEO",
+						"quote": "Quote:",
+						"words": "«Bezos said if you can't feed the team with two pizzas, you have too big a team. We succeed! And this is our advantage. (-: "
+					},
+					{
+						"name": "Alexander Isaev ",
+						"profession": "(CBDO)",
+						"quote": "Quote:",
+						"words": "«We monitor and analyze the tops of the Apple Store and Goole Play Market on a daily basis - in our business, it is important to be aware of every detail of the market situation»"
+					},
+					{
+						"name": "Alexander Negreev",
+						"profession": "Game designe",
+						"quote": "Quote:",
+						"words": "«Brainstorming sessions sometimes drag on until late at night, but how else can you find the brilliant one among the hundreds of ideas?»"
+					},
+					{
+						"name": "Eric Imashev",
+						"profession": "Unity developer",
+						"quote": "Quote:",
+						"words": "«In every project, it is important not only what is visible to the player - but also what is under the hood. Instant response and saved game on time - highly appreciated by players»"
+					},
+					{
+						"name": "Alex Sherman",
+						"profession": "CEO",
+						"quote": "Quote:",
+						"words": "«Bezos said if you can't feed the team with two pizzas, you have too big a team. We succeed! And this is our advantage. (-: "
+					},
+					{
+						"name": "Alexander Isaev ",
+						"profession": "(CBDO)",
+						"quote": "Quote:",
+						"words": "«We monitor and analyze the tops of the Apple Store and Goole Play Market on a daily basis - in our business, it is important to be aware of every detail of the market situation»"
+					},
+					{
+						"name": "Alexander Negreev",
+						"profession": "Game designe",
+						"quote": "Quote:",
+						"words": "«Brainstorming sessions sometimes drag on until late at night, but how else can you find the brilliant one among the hundreds of ideas?»"
+					},
+					{
+						"name": "Eric Imashev",
+						"profession": "Unity developer",
+						"quote": "Quote:",
+						"words": "«In every project, it is important not only what is visible to the player - but also what is under the hood. Instant response and saved game on time - highly appreciated by players»"
+					}
+				]
+			}
 		}
 	},
 	"NavLink": ["home", "company", "games", "career", "news", "contacts"]

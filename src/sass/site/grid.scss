@@ -43,7 +43,7 @@ $container-width: 1950px;
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1027px) {
 	@for $i from 1 through $columns {
 		.col-lg-#{$i} {
 			width: (100 / ($columns / $i)) * 1%;

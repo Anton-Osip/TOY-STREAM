@@ -12,10 +12,25 @@
 	font-style: normal;
 	font-stretch: normal;
 }
+
+@font-face {
+	font-family: 'Akrobat-ExtraBold';
+	src: url('./../../assets/fonts/Akrobat-ExtraBold.otf');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+}
 @font-face {
 	font-family: 'ZonaPro-Bold';
 	src: url('./../../assets/fonts/ZonaPro-Bold.otf');
 	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: 'Akrobat-SemiBold';
+	src: url('./../../assets/fonts/Proxima-Nova.ttf');
+	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
 }
