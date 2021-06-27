@@ -1,0 +1,125 @@
+.games-page {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	padding-top: 125px;
+	padding-bottom: 55px;
+	&__bg {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background: #d3d1e9;
+		height: calc(100vh - 115px);
+		z-index: -1;
+		overflow: hidden;
+	}
+	&__info {
+		position: relative;
+	}
+	&__title {
+		font-family: 'ZonaPro-Bold';
+		font-weight: 800;
+		font-size: 3rem;
+		line-height: 1.09em;
+		text-transform: uppercase;
+		color: $text-color;
+		margin-bottom: 0.5em;
+	}
+	&__description {
+		font-family: 'Akrobat-SemiBold';
+		font-weight: 600;
+		font-size: 1.2rem;
+		line-height: 1.3em;
+		color: $text-color;
+	}
+	&__description:nth-child(3) {
+		margin-top: 1.5rem;
+		margin-bottom: 3rem;
+	}
+	&__btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px;
+		width: auto;
+	}
+}
+
+.btn {
+	&__text {
+		width: 128px;
+		font-family: 'Akrobat-Bold';
+		font-weight: 800;
+		font-size: 22px;
+		line-height: 27px;
+		color: #ffffff;
+	}
+	&__arrow {
+		font-family: 'Akrobat-Bold';
+		font-weight: 800;
+		font-size: 50px;
+		line-height: 27px;
+		color: #ffffff;
+		margin-left: 15px;
+	}
+}
+@media (max-width: 1027px) {
+	.games-page {
+		display: flex;
+		align-items: flex-start;
+		padding-top: 160px;
+		padding-bottom: 0;
+		&__bg {
+			width: calc(100vw - 60px);
+			overflow: hidden;
+		}
+		&__info {
+			position: relative;
+			margin: 0 auto;
+		}
+		&__title {
+			max-width: 1000px;
+			text-align: center;
+		}
+		&__description {
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		&__img {
+			position: absolute;
+			bottom: -330px;
+			left: 150px;
+			width: 100%;
+			max-width: 419px;
+			height: 662px;
+		}
+		&__btn {
+			display: none;
+		}
+	}
+}
+@media (max-width: 600px) {
+	.col-lg-8.games-page__bg,
+	.col-lg-11.games-page__bg {
+		padding: 0;
+	}
+	.games-page {
+		padding-top: 120px;
+		padding-bottom: 0;
+		&__title {
+			font-size: 32px;
+			line-height: 38px;
+		}
+		&__description {
+			font-size: 16px;
+			line-height: 20px;
+		}
+		&__bg {
+			min-height: 600px;
+		}
+		&__img {
+			left: -60px;
+		}
+		left: -60px;
+	}
+}

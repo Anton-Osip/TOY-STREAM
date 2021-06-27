@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import Sherman from '../../../assets/img/about/team/people.png'
+import people1 from '../../../assets/img/about/team/people1.png'
+import people2 from '../../../assets/img/about/team/people2.png'
+import people3 from '../../../assets/img/about/team/people3.png'
+import people4 from '../../../assets/img/about/team/people4.png'
 
 export default function Team({ language, chengLanguage, switchs }) {
+	const peoples = [people1, people2, people3, people4]
 	const [slider, setSlider] = useState(0)
 	const [prevSlid, setPrevSlid] = useState(true)
 	const [nextSlid, setNextSlid] = useState(false)
@@ -72,7 +76,7 @@ export default function Team({ language, chengLanguage, switchs }) {
 							(item, index) => (
 								<div className='card' key={index}>
 									<div className='card__photo'>
-										<img src={Sherman} />
+										<img src={peoples[item.img]} />
 									</div>
 									<h4 className='card__name'>{item.name}</h4>
 									<p className='card__profession'>

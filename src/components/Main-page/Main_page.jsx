@@ -20,6 +20,9 @@ export default function Main_page({ language, chengLanguage }) {
 						<NavLink to={`/games`} className='main-page__btn '>
 							<button className=' btn'>
 								{language[chengLanguage].main_page.button}
+								<div className='main-page__btn-arrow'>
+									&rarr;
+								</div>
 							</button>
 						</NavLink>
 						<p className='main-page__description'>

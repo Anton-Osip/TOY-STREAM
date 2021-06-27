@@ -9,13 +9,15 @@
 }
 .switchs {
 	position: fixed;
+
 	z-index: 999;
 	top: 50%;
 	right: 0;
 	transform: translateY(-50%);
 }
 .switch {
-	margin-right: 10px;
+	display: none;
+	margin: 10px 0 10px 10px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -44,7 +46,7 @@
 	}
 }
 .undisplay {
-	display: none;
+	display: none !important;
 }
 
 @media (max-width: 1027px) {
@@ -52,7 +54,7 @@
 		overflow: visible;
 	}
 	.undisplay {
-		display: block;
+		display: block !important;
 	}
 	.switchs {
 		display: none;

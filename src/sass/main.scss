@@ -4,9 +4,19 @@
 @import 'site/mixins/mixins';
 @import 'site/grid';
 @import 'site/style';
+
 @import './site/header.scss';
+
 @import './site/footer.scss';
+
 @import './site/main-page.scss';
+
 @import './site/compony.scss';
 @import './site/team.scss';
 @import './site/studio.scss';
+
+@import './site/character.scss';
+@import './site/games.scss';
+@import './site/games-page.scss';
+@import './site/ourWork.scss';
+@import './site/last-worcs.scss';

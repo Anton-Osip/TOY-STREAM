@@ -7,6 +7,7 @@ import Language from './Language/Language.json'
 import Footer from './components/Footer/Footer.jsx'
 import MainPage from './components/Main-page/Main_page.jsx'
 import Compony from './components/Company/Compony.jsx'
+import Games from './components/Games/Games.jsx'
 
 export default function App() {
 	const [chengLanguage, setChengLanguage] = useState('ru')
@@ -21,17 +22,20 @@ export default function App() {
 				setBurgerMenu={setBurgerMenu}
 			/>
 			<Switch>
-				<Route path='/home'>
+				<Route exact path='/'>
 					<MainPage
 						language={Language}
 						chengLanguage={chengLanguage}
 					/>
 				</Route>
-				<Route path='/company'>
+				<Route exact path='/company'>
 					<Compony
 						language={Language}
 						chengLanguage={chengLanguage}
 					/>
+				</Route>
+				<Route exact path='/games'>
+					<Games language={Language} chengLanguage={chengLanguage} />
 				</Route>
 			</Switch>
 			<Footer

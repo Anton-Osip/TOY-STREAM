@@ -37,54 +37,143 @@
 				"title": "Наша команда",
 				"cards": [
 					{
+						"img": "0",
 						"name": "Алекс Шерман",
 						"profession": "CEO",
 						"quote": "Цитата:",
 						"words": "«Безос говорил, если не можешь накормить команду двумя пиццами - у тебя слишком большая команда. Нам удается! И в этом наше преимущество. (-:»"
 					},
 					{
+						"img": "1",
 						"name": "Александр Исаев ",
 						"profession": "(CBDO)",
 						"quote": "Цитата:",
 						"words": "«Мы ежедневно отслеживаем и нализируем топы Apple Store и Goole Play Market - в нашем деле важно быть в курсе каждой детали ситуации на рынке»"
 					},
 					{
+						"img": "2",
 						"name": "Александр Негреев",
 						"profession": "Game designe",
 						"quote": "Цитата:",
 						"words": "«Мозговые штурмы порой затягиваются до поздней ночи, но как еще найти среди сотни идей - ту самую, блестящую?»"
 					},
 					{
+						"img": "3",
 						"name": "Эрик Имашев",
 						"profession": "Unity developer",
 						"quote": "Цитата:",
 						"words": "«В каждом проекте важно не только то, что видно игроку - но и что находится под капотом. Мгновенный отклик и вовремя сохраненная игра - очень ценятся игроками»"
 					},
 					{
+						"img": "0",
 						"name": "Алекс Шерман",
 						"profession": "CEO",
 						"quote": "Цитата:",
 						"words": "«Безос говорил, если не можешь накормить команду двумя пиццами - у тебя слишком большая команда. Нам удается! И в этом наше преимущество. (-:»"
 					},
 					{
+						"img": "1",
 						"name": "Александр Исаев ",
 						"profession": "(CBDO)",
 						"quote": "Цитата:",
 						"words": "«Мы ежедневно отслеживаем и нализируем топы Apple Store и Goole Play Market - в нашем деле важно быть в курсе каждой детали ситуации на рынке»"
 					},
 					{
+						"img": "2",
 						"name": "Александр Негреев",
 						"profession": "Game designe",
 						"quote": "Цитата:",
 						"words": "«Мозговые штурмы порой затягиваются до поздней ночи, но как еще найти среди сотни идей - ту самую, блестящую?»"
 					},
 					{
+						"img": "3",
 						"name": "Эрик Имашев",
 						"profession": "Unity developer",
 						"quote": "Цитата:",
 						"words": "«В каждом проекте важно не только то, что видно игроку - но и что находится под капотом. Мгновенный отклик и вовремя сохраненная игра - очень ценятся игроками»"
 					}
 				]
+			}
+		},
+		"games": {
+			"gamesPage": {
+				"title": "игры",
+				"description": [
+					"Toy.Stream сегодня — это команда из более 500 человек и офисы по всему миру. Мы входим в топ-10 игровых разработчиков по установкам — общее количество загрузок перевалило за 2 млрд, а ежемесячная аудитория составляет более 250 млн игроков.",
+					"В разработке у нас всегда находится более десяти проектов одновременно. Мы постоянно экспериментируем, ищем новые тренды и пробуем себя в новых жанрах."
+				],
+				"btn": "Смотреть наши работы"
+			},
+			"ourWorks": "наши работы",
+			"ourWork": [
+				{
+					"id": "1",
+					"img": "0",
+					"title": "Design Masters",
+					"titleInfo": "Станьте дизайнером интерьеров!",
+					"description": "Проходите уровни матч-3, создавайте собственные дизайны и интерьеры, следите за историей и знакомьтесь с персонажами.",
+					"btnText": "Подробнее"
+				},
+				{
+					"id": "2",
+					"img": "1",
+					"title": "Hitmasters",
+					"titleInfo": "Стань стрелком и срази всех врагов!",
+					"description": " Целься метко, используй объекты на уровнях и не дай никому спастись! Открывай новое оружие, пополняй свой арсенал и проходи головоломки.",
+					"btnText": "Подробнее"
+				},
+				{
+					"id": "3",
+					"img": "2",
+					"title": "Perfect Makeup 3D",
+					"titleInfo": "Perfect Makeup 3D Добро пожаловать в мир макияжа!",
+					"description": " Выбирайте кисти, цвета и оттенки губной помады, подводки для глаз и пудры, чтобы добиться превосходного результата.",
+					"btnText": "Подробнее"
+				},
+				{
+					"id": "4",
+					"img": "3",
+					"title": "Escape Masters",
+					"titleInfo": "Совершите идеальный побег!",
+					"description": " Спаси напарников, собери сокровища и прокопай путь к свободе, но опасайся ловушек.",
+					"btnText": "Подробнее"
+				},
+				{
+					"id": "5",
+					"img": "0",
+					"title": "Design Masters",
+					"titleInfo": "Станьте дизайнером интерьеров!",
+					"description": "Проходите уровни матч-3, создавайте собственные дизайны и интерьеры, следите за историей и знакомьтесь с персонажами.",
+					"btnText": "Подробнее"
+				},
+				{
+					"id": "6",
+					"img": "1",
+					"title": "Hitmasters",
+					"titleInfo": "Стань стрелком и срази всех врагов!",
+					"description": " Целься метко, используй объекты на уровнях и не дай никому спастись! Открывай новое оружие, пополняй свой арсенал и проходи головоломки.",
+					"btnText": "Подробнее"
+				},
+				{
+					"id": "7",
+					"img": "2",
+					"title": "Perfect Makeup 3D",
+					"titleInfo": "Perfect Makeup 3D Добро пожаловать в мир макияжа!",
+					"description": " Выбирайте кисти, цвета и оттенки губной помады, подводки для глаз и пудры, чтобы добиться превосходного результата.",
+					"btnText": "Подробнее"
+				},
+				{
+					"id": "8",
+					"img": "3",
+					"title": "Escape Masters",
+					"titleInfo": "Совершите идеальный побег!",
+					"description": " Спаси напарников, собери сокровища и прокопай путь к свободе, но опасайся ловушек.",
+					"btnText": "Подробнее"
+				}
+			],
+			"lastWorks": {
+				"title": "Последние проекты",
+				"up": "Вверх"
 			}
 		}
 	},
@@ -120,48 +209,56 @@
 				"title": "our team",
 				"cards": [
 					{
+						"img": "0",
 						"name": "Alex Sherman",
 						"profession": "CEO",
 						"quote": "Quote:",
 						"words": "«Bezos said if you can't feed the team with two pizzas, you have too big a team. We succeed! And this is our advantage. (-: "
 					},
 					{
+						"img": "1",
 						"name": "Alexander Isaev ",
 						"profession": "(CBDO)",
 						"quote": "Quote:",
 						"words": "«We monitor and analyze the tops of the Apple Store and Goole Play Market on a daily basis - in our business, it is important to be aware of every detail of the market situation»"
 					},
 					{
+						"img": "2",
 						"name": "Alexander Negreev",
 						"profession": "Game designe",
 						"quote": "Quote:",
 						"words": "«Brainstorming sessions sometimes drag on until late at night, but how else can you find the brilliant one among the hundreds of ideas?»"
 					},
 					{
+						"img": "3",
 						"name": "Eric Imashev",
 						"profession": "Unity developer",
 						"quote": "Quote:",
 						"words": "«In every project, it is important not only what is visible to the player - but also what is under the hood. Instant response and saved game on time - highly appreciated by players»"
 					},
 					{
+						"img": "0",
 						"name": "Alex Sherman",
 						"profession": "CEO",
 						"quote": "Quote:",
 						"words": "«Bezos said if you can't feed the team with two pizzas, you have too big a team. We succeed! And this is our advantage. (-: "
 					},
 					{
+						"img": "1",
 						"name": "Alexander Isaev ",
 						"profession": "(CBDO)",
 						"quote": "Quote:",
 						"words": "«We monitor and analyze the tops of the Apple Store and Goole Play Market on a daily basis - in our business, it is important to be aware of every detail of the market situation»"
 					},
 					{
+						"img": "2",
 						"name": "Alexander Negreev",
 						"profession": "Game designe",
 						"quote": "Quote:",
 						"words": "«Brainstorming sessions sometimes drag on until late at night, but how else can you find the brilliant one among the hundreds of ideas?»"
 					},
 					{
+						"img": "3",
 						"name": "Eric Imashev",
 						"profession": "Unity developer",
 						"quote": "Quote:",
@@ -169,7 +266,88 @@
 					}
 				]
 			}
+		},
+		"games": {
+			"gamesPage": {
+				"title": "games",
+				"description": [
+					"Toy.Stream today is a team of over 500 people and offices around the world. We are among the top 10 game developers by installs - the total number of downloads has exceeded 2 billion, and the monthly audience is over 250 million players.",
+					"We always have more than ten projects in development at the same time. We are constantly experimenting, looking for new trends and trying ourselves in new genres."
+				],
+				"btn": "See our work"
+			},
+			"ourWorks": "наши работы",
+			"ourWork": [
+				{
+					"id": "1",
+					"img": "0",
+					"title": "Design Masters",
+					"titleInfo": "Become an interior designer!",
+					"description": "Complete match-3 levels, create your own designs and interiors, follow the story and meet the characters.",
+					"btnText": "More details"
+				},
+				{
+					"id": "2",
+					"img": "1",
+					"title": "Hitmasters",
+					"titleInfo": "Become a shooter and defeat all enemies!",
+					"description": " Aim accurately, use objects on the levels and don't let anyone escape! Unlock new weapons, replenish your arsenal and complete puzzles.",
+					"btnText": "More details"
+				},
+				{
+					"id": "3",
+					"img": "2",
+					"title": "Perfect Makeup 3D",
+					"titleInfo": "Perfect Makeup 3D Welcome to the world of makeup!",
+					"description": " Choose brushes, colors and shades of lipstick, eyeliner and powder for a great result.",
+					"btnText": "More details"
+				},
+				{
+					"id": "4",
+					"img": "3",
+					"title": "Escape Masters",
+					"titleInfo": "Get the perfect escape!",
+					"description": " Save your partners, collect treasures and dig your way to freedom, but beware of traps.",
+					"btnText": "More details"
+				},
+				{
+					"id": "5",
+					"img": "0",
+					"title": "Design Masters",
+					"titleInfo": "Become an interior designer!",
+					"description": "Complete match-3 levels, create your own designs and interiors, follow the story and meet the characters.",
+					"btnText": "More details"
+				},
+				{
+					"id": "6",
+					"img": "1",
+					"title": "Hitmasters",
+					"titleInfo": "Become a shooter and defeat all enemies!",
+					"description": " Aim accurately, use objects on the levels and don't let anyone escape! Unlock new weapons, replenish your arsenal and complete puzzles.",
+					"btnText": "More details"
+				},
+				{
+					"id": "7",
+					"img": "2",
+					"title": "Perfect Makeup 3D",
+					"titleInfo": "Perfect Makeup 3D Welcome to the world of makeup!",
+					"description": " Choose brushes, colors and shades of lipstick, eyeliner and powder for a great result.",
+					"btnText": "More details"
+				},
+				{
+					"id": "8",
+					"img": "3",
+					"title": "Escape Masters",
+					"titleInfo": "Get the perfect escape!",
+					"description": " Save your partners, collect treasures and dig your way to freedom, but beware of traps.",
+					"btnText": "More details"
+				}
+			],
+			"lastWorks": {
+				"title": "Recent projects",
+				"up": "Up"
+			}
 		}
 	},
-	"NavLink": ["home", "company", "games", "career", "news", "contacts"]
+	"NavLink": ["/", "/company", "/games", "/career", "/news", "/contacts"]
 }
