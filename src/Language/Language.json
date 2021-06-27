@@ -107,7 +107,7 @@
 			"ourWorks": "наши работы",
 			"ourWork": [
 				{
-					"id": "1",
+					"id": 1,
 					"img": "0",
 					"title": "Design Masters",
 					"titleInfo": "Станьте дизайнером интерьеров!",
@@ -115,7 +115,7 @@
 					"btnText": "Подробнее"
 				},
 				{
-					"id": "2",
+					"id": 2,
 					"img": "1",
 					"title": "Hitmasters",
 					"titleInfo": "Стань стрелком и срази всех врагов!",
@@ -123,7 +123,7 @@
 					"btnText": "Подробнее"
 				},
 				{
-					"id": "3",
+					"id": 3,
 					"img": "2",
 					"title": "Perfect Makeup 3D",
 					"titleInfo": "Perfect Makeup 3D Добро пожаловать в мир макияжа!",
@@ -131,7 +131,7 @@
 					"btnText": "Подробнее"
 				},
 				{
-					"id": "4",
+					"id": 4,
 					"img": "3",
 					"title": "Escape Masters",
 					"titleInfo": "Совершите идеальный побег!",
@@ -139,7 +139,7 @@
 					"btnText": "Подробнее"
 				},
 				{
-					"id": "5",
+					"id": 5,
 					"img": "0",
 					"title": "Design Masters",
 					"titleInfo": "Станьте дизайнером интерьеров!",
@@ -147,7 +147,7 @@
 					"btnText": "Подробнее"
 				},
 				{
-					"id": "6",
+					"id": 6,
 					"img": "1",
 					"title": "Hitmasters",
 					"titleInfo": "Стань стрелком и срази всех врагов!",
@@ -155,7 +155,7 @@
 					"btnText": "Подробнее"
 				},
 				{
-					"id": "7",
+					"id": 7,
 					"img": "2",
 					"title": "Perfect Makeup 3D",
 					"titleInfo": "Perfect Makeup 3D Добро пожаловать в мир макияжа!",
@@ -163,7 +163,7 @@
 					"btnText": "Подробнее"
 				},
 				{
-					"id": "8",
+					"id": 8,
 					"img": "3",
 					"title": "Escape Masters",
 					"titleInfo": "Совершите идеальный побег!",
@@ -279,7 +279,7 @@
 			"ourWorks": "наши работы",
 			"ourWork": [
 				{
-					"id": "1",
+					"id": 1,
 					"img": "0",
 					"title": "Design Masters",
 					"titleInfo": "Become an interior designer!",
@@ -287,7 +287,7 @@
 					"btnText": "More details"
 				},
 				{
-					"id": "2",
+					"id": 2,
 					"img": "1",
 					"title": "Hitmasters",
 					"titleInfo": "Become a shooter and defeat all enemies!",
@@ -295,7 +295,7 @@
 					"btnText": "More details"
 				},
 				{
-					"id": "3",
+					"id": 3,
 					"img": "2",
 					"title": "Perfect Makeup 3D",
 					"titleInfo": "Perfect Makeup 3D Welcome to the world of makeup!",
@@ -303,7 +303,7 @@
 					"btnText": "More details"
 				},
 				{
-					"id": "4",
+					"id": 4,
 					"img": "3",
 					"title": "Escape Masters",
 					"titleInfo": "Get the perfect escape!",
@@ -311,7 +311,7 @@
 					"btnText": "More details"
 				},
 				{
-					"id": "5",
+					"id": 5,
 					"img": "0",
 					"title": "Design Masters",
 					"titleInfo": "Become an interior designer!",
@@ -319,7 +319,7 @@
 					"btnText": "More details"
 				},
 				{
-					"id": "6",
+					"id": 6,
 					"img": "1",
 					"title": "Hitmasters",
 					"titleInfo": "Become a shooter and defeat all enemies!",
@@ -327,7 +327,7 @@
 					"btnText": "More details"
 				},
 				{
-					"id": "7",
+					"id": 7,
 					"img": "2",
 					"title": "Perfect Makeup 3D",
 					"titleInfo": "Perfect Makeup 3D Welcome to the world of makeup!",
@@ -335,7 +335,7 @@
 					"btnText": "More details"
 				},
 				{
-					"id": "8",
+					"id": 8,
 					"img": "3",
 					"title": "Escape Masters",
 					"titleInfo": "Get the perfect escape!",

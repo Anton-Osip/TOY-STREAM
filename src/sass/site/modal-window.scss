@@ -1,0 +1,125 @@
+.modalwindow {
+	background: rgba(#000000, 0.7);
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 99999;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.5s;
+	pointer-events: none;
+	&__content {
+		max-width: 1110px;
+		position: relative;
+		background: #ffffff;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 60px;
+		padding: 62px 76px;
+		align-items: center;
+	}
+	&.active {
+		opacity: 1;
+		transition: opacity 0.5s;
+		pointer-events: all;
+	}
+	&__title {
+		font-family: 'Akrobat-Bold';
+		font-weight: 800;
+		font-size: 52px;
+		line-height: 65px;
+		text-transform: uppercase;
+		color: $text-color;
+		margin-bottom: 24px;
+	}
+
+	&__description {
+		margin-top: 35px;
+	}
+	&__title-info,
+	&__description {
+		font-family: 'Akrobat-SemiBold';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 30px;
+
+		color: #000000;
+	}
+	&__img {
+		max-width: 505px;
+		max-height: 505px;
+		overflow: hidden;
+		& img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__cross {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__cross-line {
+		width: 40px;
+		height: 2px;
+		position: relative;
+		transform: rotateZ(45deg);
+		background-color: $text-color;
+	}
+	&__cross-line:after {
+		content: '';
+		width: 40px;
+		height: 2px;
+		position: absolute;
+		top: 0px;
+		left: 0;
+		transform: rotateZ(90deg);
+		background-color: $text-color;
+	}
+}
+@media (max-width: 746px) {
+	.modalwindow {
+		&__content {
+			grid-template-columns: 1fr;
+			grid-template-rows: auto auto;
+			grid-column-gap: 0;
+			grid-row-gap: 25px;
+			padding: 60px 20px;
+			align-items: center;
+			justify-items: center;
+		}
+		&__title {
+			text-align: center;
+			font-size: 32px;
+			line-height: 40px;
+			margin-bottom: 12px;
+		}
+
+		&__title-info,
+		&__description {
+			text-align: center;
+			font-size: 16px;
+			line-height: 20px;
+		}
+		&__img {
+			max-width: 301px;
+			max-height: 301;
+			& img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}

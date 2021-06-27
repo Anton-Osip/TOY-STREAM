@@ -2,9 +2,12 @@ import React, { useState } from 'react'
 import GamesPage from './GamesPage/GamesPage.jsx'
 import OurWork from './OurWork/OurWork.jsx'
 import LastWorks from './LastWorks/LastWorks.jsx'
+import ModalWindow from './ModalWondow/ModalWindow.jsx'
 
 export default function Games({ language, chengLanguage }) {
 	const [switchs, setSwitchs] = useState('games-page')
+	const [active, setactive] = useState(false)
+	const [dataId, setDataId] = useState(0)
 	return (
 		<div className='games'>
 			<div className='switchs'>
@@ -64,11 +67,21 @@ export default function Games({ language, chengLanguage }) {
 				language={language}
 				chengLanguage={chengLanguage}
 				switchs={switchs}
+				active={active}
+				setActive={setactive}
+				setDataId={setDataId}
 			/>
 			<LastWorks
 				language={language}
 				chengLanguage={chengLanguage}
 				switchs={switchs}
+			/>
+			<ModalWindow
+				language={language}
+				chengLanguage={chengLanguage}
+				active={active}
+				setActive={setactive}
+				dataId={dataId}
 			/>
 		</div>
 	)
