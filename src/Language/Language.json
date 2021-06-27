@@ -1,13 +1,6 @@
 {
 	"ru": {
-		"header": [
-			"Главная страница",
-			"Компания",
-			"Игры",
-			"Карьера",
-			"Новости",
-			"Контакты"
-		],
+		"header": ["Главная страница", "Компания", "Игры", "Контакты"],
 		"main_page": {
 			"title": "Мы создаем мобильные игры, в которые играют миллионы",
 			"button": "Узнать подробнее",
@@ -185,7 +178,7 @@
 	},
 
 	"eng": {
-		"header": ["Home", "Company", "Games", "Career", "News", "Contacts"],
+		"header": ["Home", "Company", "Games", "Contacts"],
 		"main_page": {
 			"title": "We create mobile games that are played by millions",
 			"button": "Learn more",
@@ -361,5 +354,5 @@
 			"adress": "Technopark Skolkovo, Moscow, 121205"
 		}
 	},
-	"NavLink": ["/", "/company", "/games", "/career", "/news", "/contacts"]
+	"NavLink": ["/", "/company", "/games", "/contacts"]
 }

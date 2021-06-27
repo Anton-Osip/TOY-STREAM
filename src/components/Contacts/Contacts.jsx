@@ -10,10 +10,7 @@ export default function Contacts({ language, chengLanguage }) {
 					<h1 className='contacts__title'>
 						{language[chengLanguage].contacts.title}
 					</h1>
-					<a
-						href={`tell:${language[chengLanguage].contacts.mail}}`}
-						className='contacts__phone'
-					>
+					<a href={`tel:+79266888569`} className='contacts__phone'>
 						{language[chengLanguage].contacts.phone}
 					</a>
 					<a
