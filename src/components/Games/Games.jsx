@@ -67,7 +67,6 @@ export default function Games({ language, chengLanguage }) {
 				language={language}
 				chengLanguage={chengLanguage}
 				switchs={switchs}
-				active={active}
 				setActive={setactive}
 				setDataId={setDataId}
 			/>
@@ -75,6 +74,8 @@ export default function Games({ language, chengLanguage }) {
 				language={language}
 				chengLanguage={chengLanguage}
 				switchs={switchs}
+				setActive={setactive}
+				setDataId={setDataId}
 			/>
 			<ModalWindow
 				language={language}

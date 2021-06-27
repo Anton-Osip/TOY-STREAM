@@ -1,10 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import img1 from '../../../assets/img/games/projects/projects1.png'
 import img2 from '../../../assets/img/games/projects/projects2.png'
 import img3 from '../../../assets/img/games/projects/projects3.png'
 import img4 from '../../../assets/img/games/projects/projects4.png'
 
-export default function LastWorks({ language, chengLanguage, switchs }) {
+export default function LastWorks({
+	language,
+	chengLanguage,
+	switchs,
+	setActive,
+	setDataId,
+}) {
 	const arrImg = [img1, img2, img3, img4]
 
 	const [slider, setSlider] = useState(0)
@@ -89,7 +95,14 @@ export default function LastWorks({ language, chengLanguage, switchs }) {
 									<p className='LastWorks-card__description'>
 										{item.description}
 									</p>
-									<button className='LastWorks__btn btn'>
+									<button
+										className='LastWorks__btn btn'
+										data-id={item.id}
+										onClick={() => {
+											setActive(true)
+											setDataId(item.id)
+										}}
+									>
 										<span className='LastWorks-btn__text'>
 											{item.btnText}
 										</span>
