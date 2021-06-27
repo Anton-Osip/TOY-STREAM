@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer.jsx'
 import MainPage from './components/Main-page/Main_page.jsx'
 import Compony from './components/Company/Compony.jsx'
 import Games from './components/Games/Games.jsx'
+import Contacts from './components/Contacts/Contacts.jsx'
 
 export default function App() {
 	const [chengLanguage, setChengLanguage] = useState('ru')
@@ -36,6 +37,12 @@ export default function App() {
 				</Route>
 				<Route exact path='/games'>
 					<Games language={Language} chengLanguage={chengLanguage} />
+				</Route>
+				<Route exact path='/contacts'>
+					<Contacts
+						language={Language}
+						chengLanguage={chengLanguage}
+					/>
 				</Route>
 			</Switch>
 			<Footer

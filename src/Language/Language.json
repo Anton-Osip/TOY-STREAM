@@ -175,6 +175,12 @@
 				"title": "Последние проекты",
 				"up": "Вверх"
 			}
+		},
+		"contacts": {
+			"title": "Контакты",
+			"phone": "+7 (926) 688 85 69",
+			"mail": "support@toy.stream",
+			"adress": "Технопарк Сколково, Москва, 121205"
 		}
 	},
 
@@ -347,6 +353,12 @@
 				"title": "Recent projects",
 				"up": "Up"
 			}
+		},
+		"contacts": {
+			"title": "Contacts",
+			"phone": "+7 (926) 688 85 69",
+			"mail": "support@toy.stream",
+			"adress": "Technopark Skolkovo, Moscow, 121205"
 		}
 	},
 	"NavLink": ["/", "/company", "/games", "/career", "/news", "/contacts"]
