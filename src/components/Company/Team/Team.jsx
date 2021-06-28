@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import uuid from 'react-uuid'
 import people1 from '../../../assets/img/about/team/people1.png'
 import people2 from '../../../assets/img/about/team/people2.png'
 import people3 from '../../../assets/img/about/team/people3.png'
@@ -74,7 +75,7 @@ export default function Team({ language, chengLanguage, switchs }) {
 					<div className='team__slider' style={shiftSlider}>
 						{language[chengLanguage].compony.team.cards.map(
 							(item, index) => (
-								<div className='card' key={index}>
+								<div className='card' key={uuid()}>
 									<div className='card__photo'>
 										<img src={peoples[item.img]} />
 									</div>

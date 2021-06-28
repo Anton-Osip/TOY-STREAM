@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import uuid from 'react-uuid'
 import img1 from '../../../assets/img/games/projects/projects1.png'
 import img2 from '../../../assets/img/games/projects/projects2.png'
 import img3 from '../../../assets/img/games/projects/projects3.png'
@@ -84,7 +85,7 @@ export default function LastWorks({
 					<div className='LastWorks__slider' style={shiftSlider}>
 						{language[chengLanguage].games.ourWork.map(
 							(item, index) => (
-								<div className='LastWorks-card' key={index}>
+								<div className='LastWorks-card' key={uuid()}>
 									<div className='LastWorks-card__photo'>
 										<img src={arrImg[item.img]} alt='' />
 									</div>
