@@ -6,7 +6,6 @@ export default function Links({ language, chengLanguage, setBurgerMenu }) {
 		<nav className='links'>
 			{language[chengLanguage].header.map((item, index) => (
 				<NavLink
-					activeClassName='link--active'
 					className='link'
 					key={index}
 					to={`${language.NavLink[index]}`}
